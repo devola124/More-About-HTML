@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class:4-3 HTML FORM</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+       <section>
+         <h3>Please Fill Up The Form</h3>
+         <form action="#">
+            <label for="name">Your Name :
+                <input type="text" id="name" placeholder="write your name">
+            </label>
+            <label for="email">Your Email :
+                <input type="email" id="email" placeholder="Enter your email">
+            </label>
+            <label for="phone">Your Phone :
+                <input type="text" id="phone" placeholder="Your number">
+            </label>
+
+            <fieldset>
+                <legend>Pick One Pita</legend>
+                <label for="Chitoy">
+                    <input type="radio" name="Pita" id="Chitoy">Chitoy Pita
+                </label>
+                <label for="Vapa">
+                    <input type="radio" name="Pita" id="Vapa">Vapa Pita
+                </label>
+                <label for="Puri">
+                    <input type="radio" name="Pita" id="Puri">Puri Pita
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select One More vorta</legend>
+                <label for="Sorisha">
+                    <input type="checkbox" name="vorta" id="Sorisha">Sorisha vorta
+                </label>
+                <label for="Sutki">
+                    <input type="checkbox" name="vorta" id="Sutki">Sutki vorta
+                </label>
+                <label for="Morich">
+                    <input type="checkbox" name="vorta" id="Morich">Morich vorta
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+         </form>
+       </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
